@@ -1,15 +1,15 @@
 <!doctype html>
-<html lang="{{ HTML_LANG }}">	
+<html lang="{{ HTML_LANG }}">
 <head>
 	<meta charset="utf-8"/>
-	<title>{% block title %}{{ SITENAME }}{%endblock%}</title>	
+	<title>{% block title %}{{ SITENAME }}{%endblock%}</title>
 	<meta name="author" content="{{ AUTHOR }}">
-	
+
 	{% block extra_meta %}
 	{% endblock %}
 
 	<link rel="stylesheet" href="{{ SITEURL }}/theme/css/{{ CSS_FILE }}" type="text/css" />
-		
+
     {% if PELICAN_SOBER_STICKY_SIDEBAR %}
 	  <script type="text/javascript" src="{{ SITEURL }}/theme/js/custom_scripts.js"></script>
 	{% endif %}
@@ -23,12 +23,17 @@
     {% if FEED_ALL_RSS %}
     <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
     {% endif %}
+
+    {% if EXTRA_HEADER %}
+      {{ EXTRA_HEADER }}
+    {% endif %}
+
 </head>
-	
+
 <body>
 {{ FEED_ATOM }}
     <div class="container">
-	  
+
 	  <header role="banner">
 	    <div class="feeds">
 	      {% if FEED_ALL_ATOM %}
@@ -48,13 +53,13 @@
 	    {% endif %}
 		<a href="{{ SITEURL }}" class="title">{{ SITENAME }}</a>
       </header>
-	
+
 	  <div class="wrapper">
 
 		  <div role="main" class="content">
 		    {% block content %}{% endblock %}
-		  </div>	
-		  
+		  </div>
+
 		  <div class="sidebar">
 		    <div class="sidebar-container" {% if PELICAN_SOBER_STICKY_SIDEBAR %}id="sidebar-container-fixed"{% endif %}>
 
@@ -107,10 +112,10 @@
 		  {{ AUTHOR }} - Proudly powered by <a href="http://alexis.notmyidea.org/pelican/">pelican</a>. Theme <a href="https://github.com/fle/pelican-sober">pelican-sober</a>.
     	</p>
 
-	  </footer>	
+	  </footer>
 
 	</div>
-	
+
 	{% if GOOGLE_ANALYTICS %}
 	  <script>
 		var _gaq=[['_setAccount','{{ GOOGLE_ANALYTICS }}'],['_trackPageview']];
