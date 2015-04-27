@@ -1,205 +1,205 @@
-.hll {
+.highlight .hll,.highlight-ipynb .hll {
 background-color:#FFFFCC;
 }
-.c {
+.highlight .c,.highlight-ipynb .c {
 color:#408090;
 font-style:italic;
 }
-.err {
+.highlight .err,.highlight-ipynb .err {
 border:1px solid #FF0000;
 }
-.k {
+.highlight .k,.highlight-ipynb .k {
 color:#007020;
 font-weight:bold;
 }
-.o {
+.highlight .o,.highlight-ipynb .o {
 color:#666666;
 }
-.cm {
+.highlight .cm,.highlight-ipynb .cm {
 color:#408090;
 font-style:italic;
 }
-.cp {
+.highlight .cp,.highlight-ipynb .cp {
 color:#007020;
 }
-.c1 {
+.highlight .c1,.highlight-ipynb .c1 {
 color:#408090;
 font-style:italic;
 }
-.cs {
+.highlight .cs,.highlight-ipynb .cs {
 background-color:#FFF0F0;
 color:#408090;
 }
-.gd {
+.highlight .gd,.highlight-ipynb .gd {
 color:#A00000;
 }
-.ge {
+.highlight .ge,.highlight-ipynb .ge {
 font-style:italic;
 }
-.gr {
+.highlight .gr,.highlight-ipynb .gr {
 color:#FF0000;
 }
-.gh {
+.highlight .gh,.highlight-ipynb .gh {
 color:#000080;
 font-weight:bold;
 }
-.gi {
+.highlight .gi,.highlight-ipynb .gi {
 color:#00A000;
 }
-.go {
+.highlight .go,.highlight-ipynb .go {
 color:#303030;
 }
-.gp {
+.highlight .gp,.highlight-ipynb .gp {
 color:#C65D09;
 font-weight:bold;
 }
-.gs {
+.highlight .gs,.highlight-ipynb .gs {
 font-weight:bold;
 }
-.gu {
+.highlight .gu,.highlight-ipynb .gu {
 color:#800080;
 font-weight:bold;
 }
-.gt {
+.highlight .gt,.highlight-ipynb .gt {
 color:#0040D0;
 }
-.kc {
+.highlight .kc,.highlight-ipynb .kc {
 color:#007020;
 font-weight:bold;
 }
-.kd {
+.highlight .kd,.highlight-ipynb .kd {
 color:#007020;
 font-weight:bold;
 }
-.kn {
+.highlight .kn,.highlight-ipynb .kn {
 color:#007020;
 font-weight:bold;
 }
-.kp {
+.highlight .kp,.highlight-ipynb .kp {
 color:#007020;
 }
-.kr {
+.highlight .kr,.highlight-ipynb .kr {
 color:#007020;
 font-weight:bold;
 }
-.kt {
+.highlight .kt,.highlight-ipynb .kt {
 color:#902000;
 }
-.m {
+.highlight .m,.highlight-ipynb .m {
 color:#208050;
 }
-.s {
+.highlight .s,.highlight-ipynb .s {
 color:#4070A0;
 }
-.na {
+.highlight .na,.highlight-ipynb .na {
 color:#4070A0;
 }
-.nb {
+.highlight .nb,.highlight-ipynb .nb {
 color:#007020;
 }
-.nc {
+.highlight .nc,.highlight-ipynb .nc {
 color:#0E84B5;
 font-weight:bold;
 }
-.no {
+.highlight .no,.highlight-ipynb .no {
 color:#60ADD5;
 }
-.nd {
+.highlight .nd,.highlight-ipynb .nd {
 color:#555555;
 font-weight:bold;
 }
-.ni {
+.highlight .ni,.highlight-ipynb .ni {
 color:#D55537;
 font-weight:bold;
 }
-.ne {
+.highlight .ne,.highlight-ipynb .ne {
 color:#007020;
 }
-.nf {
+.highlight .nf,.highlight-ipynb .nf {
 color:#06287E;
 }
-.nl {
+.highlight .nl,.highlight-ipynb .nl {
 color:#002070;
 font-weight:bold;
 }
-.nn {
+.highlight .nn,.highlight-ipynb .nn {
 color:#0E84B5;
 font-weight:bold;
 }
-.nt {
+.highlight .nt,.highlight-ipynb .nt {
 color:#062873;
 font-weight:bold;
 }
-.nv {
+.highlight .nv,.highlight-ipynb .nv {
 color:#BB60D5;
 }
-.ow {
+.highlight .ow,.highlight-ipynb .ow {
 color:#007020;
 font-weight:bold;
 }
-.w {
+.highlight .w,.highlight-ipynb .w {
 color:#BBBBBB;
 }
-.mf {
+.highlight .mf,.highlight-ipynb .mf {
 color:#208050;
 }
-.mh {
+.highlight .mh,.highlight-ipynb .mh {
 color:#208050;
 }
-.mi {
+.highlight .mi,.highlight-ipynb .mi {
 color:#208050;
 }
-.mo {
+.highlight .mo,.highlight-ipynb .mo {
 color:#208050;
 }
-.sb {
+.highlight .sb,.highlight-ipynb .sb {
 color:#4070A0;
 }
-.sc {
+.highlight .sc,.highlight-ipynb .sc {
 color:#4070A0;
 }
-.sd {
+.highlight .sd,.highlight-ipynb .sd {
 color:#4070A0;
 font-style:italic;
 }
-.s2 {
+.highlight .s2,.highlight-ipynb .s2 {
 color:#4070A0;
 }
-.se {
+.highlight .se,.highlight-ipynb .se {
 color:#4070A0;
 font-weight:bold;
 }
-.sh {
+.highlight .sh,.highlight-ipynb .sh {
 color:#4070A0;
 }
-.si {
+.highlight .si,.highlight-ipynb .si {
 color:#70A0D0;
 font-style:italic;
 }
-.sx {
+.highlight .sx,.highlight-ipynb .sx {
 color:#C65D09;
 }
-.sr {
+.highlight .sr,.highlight-ipynb .sr {
 color:#235388;
 }
-.s1 {
+.highlight .s1,.highlight-ipynb .s1 {
 color:#4070A0;
 }
-.ss {
+.highlight .ss,.highlight-ipynb .ss {
 color:#517918;
 }
-.bp {
+.highlight .bp,.highlight-ipynb .bp {
 color:#007020;
 }
-.vc {
+.highlight .vc,.highlight-ipynb .vc {
 color:#BB60D5;
 }
-.vg {
+.highlight .vg,.highlight-ipynb .vg {
 color:#BB60D5;
 }
-.vi {
+.highlight .vi,.highlight-ipynb .vi {
 color:#BB60D5;
 }
-.il {
+.highlight .il,.highlight-ipynb .il {
 color:#208050;
 }
